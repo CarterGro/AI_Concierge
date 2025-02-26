@@ -21,7 +21,8 @@ In order to get full use out of the assistant, you must provide it with
 2) access to the get_available_reservations function (you can do this by plugging in the JSON included below)
 3) the PDF file of venues on Resy (included in this repository)
 
-JSON file for OpenAI Agent to be able to use get_avaliable_reservations:
+## JSON file for OpenAI Agent to be able to use get_avaliable_reservations: ##
+```json
 {
   "name": "get_available_reservations",
   "description": "check if there are reservations available at a restaurant",
@@ -49,7 +50,7 @@ JSON file for OpenAI Agent to be able to use get_avaliable_reservations:
     ]
   }
 }
-
+```
 ## Prompt for OpenAI agent: ##
 
 Overview
